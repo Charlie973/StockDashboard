@@ -3,6 +3,7 @@ import dash
 from dash import dcc, html
 import plotly.express as px
 from dash.dependencies import Input, Output
+import gunicorn
 import plotly.graph_objs as go
 import pandas as pd
 
