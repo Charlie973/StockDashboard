@@ -13,6 +13,9 @@ df = pd.read_csv('./all_stocks_5yr.csv')
 # Create Dash app
 app = dash.Dash(__name__)
 
+server = app.server 
+
+
 # Define layout
 app.layout = html.Div([
     html.H1("Stock Market Trends Dashboard"),
